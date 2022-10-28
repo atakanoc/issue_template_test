@@ -1,6 +1,7 @@
-name: Bug Report
+name: ToDo list tasks
 description: File a bug report
-title: "[Bug]: "
+title:
+  placeholder: Title
 labels: ["bug", "triage"]
 assignees:
   - octocat
