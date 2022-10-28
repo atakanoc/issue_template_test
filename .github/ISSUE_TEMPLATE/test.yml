@@ -1,26 +1,21 @@
-name: ToDo list tasks
-description: File a bug report
+name: ToDo List Tasks
+description: Create a list of ToDo tasks
 labels: "ToDo"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: task_description
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Task Description
+      description: Provide a description for the ToDo tasks below
+      placeholder: e.g. Add Instance Methods to TensorFlow Frontend
     validations:
-      required: false
+      required: true
   - type: textarea
-    id: what-happened
+    id: task_list
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Task List
+      description: Make a checkbox for each task
+      value: "- [ ] task #1"
     validations:
       required: true
   - type: dropdown
