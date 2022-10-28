@@ -7,8 +7,8 @@ body:
     id: task_description
     attributes:
       label: Description
-      description: Provide a description for the ToDo tasks below
-      placeholder: e.g. Add Instance Methods to TensorFlow Frontend
+      description: Provide a description for the ToDo tasks below.
+      placeholder: e.g. Add Instance Methods to TensorFlow Frontend.
     validations:
       required: true
   - type: textarea
