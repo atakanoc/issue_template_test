@@ -1,5 +1,6 @@
 name: ToDo List Tasks
 description: Create a list of ToDo tasks
+title: "lol <test>"
 labels: "ToDo"
 body:
   - type: input
@@ -16,7 +17,7 @@ body:
       label: Task List
       description: Make a checkbox for each task
       value: |
-        - [ ] task #1
-        - [ ] task #2
+        - [ ] <task #1>
+        - [ ] <task #2>
     validations:
       required: true
