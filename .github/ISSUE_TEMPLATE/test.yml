@@ -5,7 +5,6 @@ body:
   - type: input
     id: task_description
     attributes:
-      label: Task Description
       description: Provide a description for the ToDo tasks below
       placeholder: e.g. Add Instance Methods to TensorFlow Frontend
     validations:
@@ -13,7 +12,6 @@ body:
   - type: textarea
     id: task_list
     attributes:
-      label: Task List
       description: Make a checkbox for each task
       value: |
         - [ ] task 1
