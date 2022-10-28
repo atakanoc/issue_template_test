@@ -15,7 +15,7 @@ body:
     id: task_list
     attributes:
       label: Task List
-      description: Make a checkbox for each task
+      description: Make a checkbox for each task.
       value: |
         - [ ] task 1
         - [ ] task 2
