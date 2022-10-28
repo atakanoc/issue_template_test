@@ -1,10 +1,6 @@
 name: ToDo list tasks
 description: File a bug report
-title:
-  placeholder: Title
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+labels: "ToDo"
 body:
   - type: markdown
     attributes:
