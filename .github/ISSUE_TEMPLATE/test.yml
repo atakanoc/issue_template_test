@@ -16,7 +16,7 @@ body:
       label: Task List
       description: Make a checkbox for each task
       value: |
-        - [ ] <task #1>
-        - [ ] <task #2>
+        - [ ] <task 1>
+        - [ ] <task 2>
     validations:
       required: true
