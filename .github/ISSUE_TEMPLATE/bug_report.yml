@@ -26,3 +26,30 @@ body:
       placeholder: e.g. Windows 11 using PyCharm CE & Docker.
     validations:
       required: true
+  - type: input
+    id: ivy_version
+    attributes:
+      label: Ivy Version
+      description: Which version of Ivy are you using?
+      placeholder: ex. Ivy v1.1.9
+    validations:
+      required: true
+  - type: checkboxes
+    id: backend
+    attributes:
+      label: Backend
+      description: Is this bug backend specific?
+      options:
+        - NumPy
+        - TensorFlow
+        - PyTorch
+        - JAX
+        - MXNet
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: What device did you encounter the bug on? Which GPU/CPU/TPU?
+      placeholder: "GPU: NVIDIA GeForce RTX 3090"
