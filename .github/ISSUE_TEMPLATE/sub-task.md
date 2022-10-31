@@ -1,10 +1,10 @@
 ---
 name: Sub-task
-about: Claim a sub-task from a ToDo list issue
-title: "[Sub-task]: <TASK_NAME>"
+about: Make a pull request for a sub-task
+title: "[Sub-task]: #<TASK_NAME>"
 labels: Sub Task
 assignees: ''
 
 ---
 
-<!-- This can be left empty -->
+Close #<ISSUE_NUMBER>
