@@ -31,14 +31,14 @@ body:
     attributes:
       label: Ivy Version
       description: Which version of Ivy are you using?
-      placeholder: ex. Ivy v1.1.9
+      placeholder: ex. v1.1.9
     validations:
       required: true
   - type: checkboxes
     id: backend
     attributes:
       label: Backend
-      description: Is this bug backend specific?
+      description: Is this bug backend specific (leave empty if not)?
       options:
         - label: NumPy
         - label: TensorFlow
